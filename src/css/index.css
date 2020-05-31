@@ -1,0 +1,104 @@
+/* 标题部分 */
+.modal {
+	width: 100%;
+	overflow: hidden;
+}
+
+.modal-dialog {
+	width: 100%;
+	/* margin: auto; */
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+}
+
+.modal-content {
+	/* background: red; */
+	border: 1px solid #C0C0C0;
+	width: 600px;
+	border-radius: 5px;
+	box-shadow: 1px 7px 33px rgb(194, 194, 194);
+	height: 200px;
+}
+
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+}
+
+.modal-header .modal-title {
+	/* margin-left: 20px; */
+	font-size: 14px;
+	padding: 7px;
+}
+
+.modal-header .close {
+	margin-right: 20px;
+	background: #fff;
+	overflow: none;
+	border: none;
+	/* border: 1px solid #ccc; modal-content*/
+	height: 30px;
+	line-height: 30px;
+	margin-top: 2%;
+	font-size: 18px;
+	color: #ccc;
+}
+
+.modal-header .close {}
+
+/* 主题内容部分 */
+.modal-body {
+	/* width: 600px; */
+	/* background: red; */
+	padding: 7px;
+	border-bottom: 1px solid #ccc;
+	height: 50px;
+	line-height: 10px;
+}
+
+.modal-body p {
+	font-size: 14px;
+}
+
+/* 关闭保存部分 */
+.modal-footer {
+	height: 63px;
+	/* background: red; */
+	line-height: 63px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.modal-footer button {
+	margin-right: 10px;
+	/* color: #353535; */
+	/* background-color: #f2f2f2; */
+	border-color: #bfbfbf;
+}
+
+.btn {
+	display: inline-block;
+	padding: 5px 12px;
+	margin-bottom: 0;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.53846154;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #3280fc;
+	border-color: rgb(50, 128, 252);
+}

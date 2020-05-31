@@ -1,0 +1,22 @@
+{
+  "name": "dialogbox",
+  "version": "1.0.0",
+  "description": "对话框项目支持移动手势操作丰富的参数配置",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "对话框dialog"
+  ],
+  "author": "高支支",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.1"
+  }
+}
