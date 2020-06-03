@@ -140,33 +140,7 @@
 				</div>
 			</div>
 		</body>
-		<script>
-			// var _w = 600;
-
-			// var modalContent = document.getElementsByClassName("modal-content")[0];
-			// modalContent.style.width = _w+"px";
-
-			var obj = {
-				id: "modal-content",
-				_w: 400,
-				_h: 200,
-				title: "我是标题",
-				content: "我是内容",
-				callback: wancheng //用户自定义回调函数名称
-			};
-	
-			function wancheng() {
-				console.log("提交")
-			}
-
-
-
-
-
-
-
-			var Modal1 = new ModalContent(obj);
-		</script>
+		
 		
 		
 		
