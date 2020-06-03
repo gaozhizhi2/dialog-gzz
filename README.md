@@ -142,7 +142,7 @@
 		</body>
 		
 		
-		
+		<script src="../dist/dialogbox.min.js"></script>
 		
 ## 使对话框移动部分
 	 <script>
